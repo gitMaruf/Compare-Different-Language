@@ -2,8 +2,9 @@
 In this repository, I mention how to crate alert in diiferent language for mobile divice so that anyon can easyly understand which code is simple or complex
 
 
-#Alert
-##SwiftUI, iOS, Xcode
+# Alert
+
+## SwiftUI, iOS, Xcode
 ```swift
 @State private var showingAlert = false
 Button(action: {
@@ -23,7 +24,7 @@ self.presentViewController(alert, animated: true, completion: nil)
 ```
 
 ## Dart, Flutter
-```
+```java
 showAlertDialog(BuildContext context) {
 
   // set up the button
@@ -100,7 +101,7 @@ private void CreateAddProjectDialog() {
 ```
 
 ## Ionic Framework
-```
+```javascript
 openFilters() {
     let alert = this.alertController.create({
         title: 'Example',
@@ -115,11 +116,11 @@ openFilters() {
 * Flutter: Currently on iOS and Android – but the long-term vision for Flutter is to offer an integrated solution that allows developers to write one code for both desktop & mobile, and for the web.
 * React Native: iOS and Android – but there are select libraries that allow you to use the same code to build iOS, Android, web, and Windows10 apps.
 
-
+-------------------
 1. Different Blog sys that Flutter is best for future Cross platform apps development, React Native is god for basic but when we need advance feature we need to more effort, take too much time to fix the bug, net to change framework to run apps in different platform, yet it has vast community and big market place than flutter
 
 2. Flutter certainly wins over here due to its simplicity. However, React Native is popular for delivering excellent user experience on both the platforms. Flutter has the extra advantage of reusing the code while React Native is less suitable due to its architecture.
-
+----------------------
 * StackOverFlow Popularity of Programming language
 http://sotagtrends.com/?tags=[ionic-framework,react-native,flutter,xamarin]&relative=false
 
